@@ -1,0 +1,529 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Asus/Desktop/CA2
+vaddress_inc
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1652035646
+!i10b 1
+!s100 ^fBO;]QY:cX24@D=W521N1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I9Gi1PTnTaf;JWGI;Ink1R3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/Asus/Desktop/pp
+w1639058265
+8C:/Users/Asus/Desktop/jadid/Adder.sv
+FC:/Users/Asus/Desktop/jadid/Adder.sv
+!i122 224
+Z5 L0 1 5
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1652035646.000000
+!s107 C:/Users/Asus/Desktop/jadid/Adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Asus/Desktop/jadid/Adder.sv|
+!i113 1
+Z8 o-work work -sv
+Z9 tCvgOpt 0
+vALU_32bit
+R0
+R1
+!i10b 1
+!s100 F;9WdDj[5SK]5Pn^IbKkg2
+R2
+IY4<f]8M0__0>L7bi@XM;l0
+R3
+S1
+R4
+w1651514375
+8C:/Users/Asus/Desktop/jadid/ALU.sv
+FC:/Users/Asus/Desktop/jadid/ALU.sv
+!i122 225
+L0 1 36
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Asus/Desktop/jadid/ALU.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Asus/Desktop/jadid/ALU.sv|
+!i113 1
+R8
+R9
+n@a@l@u_32bit
+vALU_control
+R0
+R1
+!i10b 1
+!s100 >ZIVEGG9zHoi:cR=?CEHM3
+R2
+I4AzFJdAaN_iE<6:;UI0iQ0
+R3
+S1
+R4
+w1639178056
+8C:/Users/Asus/Desktop/jadid/ALU_CU.sv
+FC:/Users/Asus/Desktop/jadid/ALU_CU.sv
+!i122 226
+L0 1 28
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Asus/Desktop/jadid/ALU_CU.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Asus/Desktop/jadid/ALU_CU.sv|
+!i113 1
+R8
+R9
+n@a@l@u_control
+vcontroller
+R0
+R1
+!i10b 1
+!s100 gI5J]3Y4^DH7gPFdkU2992
+R2
+ISeaUIhnWd0J=PiN7`JGPT1
+R3
+S1
+R4
+w1651513233
+8C:/Users/Asus/Desktop/jadid/Controller.sv
+FC:/Users/Asus/Desktop/jadid/Controller.sv
+!i122 227
+L0 1 65
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Asus/Desktop/jadid/Controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Asus/Desktop/jadid/Controller.sv|
+!i113 1
+R8
+R9
+vData_Memory
+R0
+R1
+!i10b 1
+!s100 VNFZ>7L828V=K6Ai@QSbA0
+R2
+IN7N`YmZ;l;;T>l2h3k[mi0
+R3
+S1
+R4
+w1639201876
+8C:/Users/Asus/Desktop/jadid/DataMemory.sv
+FC:/Users/Asus/Desktop/jadid/DataMemory.sv
+!i122 228
+L0 1 18
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Asus/Desktop/jadid/DataMemory.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Asus/Desktop/jadid/DataMemory.sv|
+!i113 1
+R8
+R9
+n@data_@memory
+vData_path
+R0
+R1
+!i10b 1
+!s100 ^bf:o_N1]3ihImkg5ZFmZ3
+R2
+I_c0^2B;K2_oTI@4OgCG4Q1
+R3
+S1
+R4
+w1651514378
+8C:/Users/Asus/Desktop/jadid/DataPath.sv
+FC:/Users/Asus/Desktop/jadid/DataPath.sv
+!i122 229
+L0 2 51
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Asus/Desktop/jadid/DataPath.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Asus/Desktop/jadid/DataPath.sv|
+!i113 1
+R8
+R9
+n@data_path
+vInstruction_memory
+R0
+Z10 !s110 1652035647
+!i10b 1
+!s100 W_E5<AYhCKPok1hT?dWd03
+R2
+I[:z2JhK7:z[XfRFOzYGbk0
+R3
+S1
+R4
+w1639203108
+8C:/Users/Asus/Desktop/jadid/InstructionMemory.sv
+FC:/Users/Asus/Desktop/jadid/InstructionMemory.sv
+!i122 230
+Z11 L0 1 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Asus/Desktop/jadid/InstructionMemory.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Asus/Desktop/jadid/InstructionMemory.sv|
+!i113 1
+R8
+R9
+n@instruction_memory
+vMIPS
+R0
+R10
+!i10b 1
+!s100 ;?gkdzh<GEPFFV5Tezz_83
+R2
+InMDj:LYY45=lH53c>BHKm2
+R3
+S1
+R4
+w1651514365
+8C:/Users/Asus/Desktop/jadid/MIPS.sv
+FC:/Users/Asus/Desktop/jadid/MIPS.sv
+!i122 231
+Z12 L0 2 11
+R6
+r1
+!s85 0
+31
+Z13 !s108 1652035647.000000
+!s107 C:/Users/Asus/Desktop/jadid/MIPS.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Asus/Desktop/jadid/MIPS.sv|
+!i113 1
+R8
+R9
+n@m@i@p@s
+vMux2to1_32bit
+R0
+R10
+!i10b 1
+!s100 Q^FT<>ZzgZKNk<F6>LA2Q1
+R2
+I>Be;5Fh3YD[b]]kjnOgO>3
+R3
+S1
+R4
+Z14 w1639201998
+Z15 8C:/Users/Asus/Desktop/jadid/MUX.sv
+Z16 FC:/Users/Asus/Desktop/jadid/MUX.sv
+!i122 232
+L0 2 7
+R6
+r1
+!s85 0
+31
+R13
+Z17 !s107 C:/Users/Asus/Desktop/jadid/MUX.sv|
+Z18 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Asus/Desktop/jadid/MUX.sv|
+!i113 1
+R8
+R9
+n@mux2to1_32bit
+vMux3to1_32bit
+R0
+R10
+!i10b 1
+!s100 znmTV3ezOJ4aN=m>_LTI;2
+R2
+Ih24aJGZ?;91e]]H<kbaST3
+R3
+S1
+R4
+R14
+R15
+R16
+!i122 232
+L0 21 8
+R6
+r1
+!s85 0
+31
+R13
+R17
+R18
+!i113 1
+R8
+R9
+n@mux3to1_32bit
+vMux3to1_5bit
+R0
+R10
+!i10b 1
+!s100 m]HD0E57:FL5eYI1@EgaA1
+R2
+Ic8An7Jcl@e^T8AK;7l4kF2
+R3
+S1
+R4
+R14
+R15
+R16
+!i122 232
+L0 10 8
+R6
+r1
+!s85 0
+31
+R13
+R17
+R18
+!i113 1
+R8
+R9
+n@mux3to1_5bit
+vMux4to1_32bit
+R0
+R10
+!i10b 1
+!s100 VEzOklPfof:nhB;zIOC[S0
+R2
+IfHeLG>?nKOKUE>zRTze;P3
+R3
+S1
+R4
+R14
+R15
+R16
+!i122 232
+L0 30 8
+R6
+r1
+!s85 0
+31
+R13
+R17
+R18
+!i113 1
+R8
+R9
+n@mux4to1_32bit
+vPC
+R0
+R10
+!i10b 1
+!s100 ^17K<EMNUXmOiEF;1F9K13
+R2
+I4c^o:Ke]I?2DMaon8UjJ?0
+R3
+S1
+R4
+w1639058565
+8C:/Users/Asus/Desktop/jadid/PC.sv
+FC:/Users/Asus/Desktop/jadid/PC.sv
+!i122 233
+R12
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Asus/Desktop/jadid/PC.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Asus/Desktop/jadid/PC.sv|
+!i113 1
+R8
+R9
+n@p@c
+vPC_inc
+R0
+R10
+!i10b 1
+!s100 F?Ai9cW:Uc915b=lCIg2]0
+R2
+IP6RPYNIkOUR0oSKN0oYMR0
+R3
+S1
+R4
+w1639058621
+8C:/Users/Asus/Desktop/jadid/PC_INCREMENT.sv
+FC:/Users/Asus/Desktop/jadid/PC_INCREMENT.sv
+!i122 234
+R5
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Asus/Desktop/jadid/PC_INCREMENT.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Asus/Desktop/jadid/PC_INCREMENT.sv|
+!i113 1
+R8
+R9
+n@p@c_inc
+vREG32
+R0
+R10
+!i10b 1
+!s100 ibC3z:QaYNl9j1PO2B0Kh2
+R2
+IdBl]c;[lKg>RcfJ5VL9;51
+R3
+S1
+R4
+w1639058682
+8C:/Users/Asus/Desktop/jadid/REG32.sv
+FC:/Users/Asus/Desktop/jadid/REG32.sv
+!i122 236
+L0 3 14
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Asus/Desktop/jadid/REG32.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Asus/Desktop/jadid/REG32.sv|
+!i113 1
+R8
+R9
+n@r@e@g32
+vRegister_file
+R0
+R10
+!i10b 1
+!s100 o0WQU^Qae_d<Z]fYb;Qaz0
+R2
+IEE<c0X7T@4[AekeXY72Le1
+R3
+S1
+R4
+w1639201961
+8C:/Users/Asus/Desktop/jadid/REG_FILE.sv
+FC:/Users/Asus/Desktop/jadid/REG_FILE.sv
+!i122 235
+L0 2 36
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Asus/Desktop/jadid/REG_FILE.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Asus/Desktop/jadid/REG_FILE.sv|
+!i113 1
+R8
+R9
+n@register_file
+vShl2_26
+R0
+R10
+!i10b 1
+!s100 Zk<?^am8N[P6C6A8fe`J`0
+R2
+IXYPYWTkCE8o9_BaHz6]_U0
+R3
+S1
+R4
+Z19 w1639058382
+Z20 8C:/Users/Asus/Desktop/jadid/Shift_Left2.sv
+Z21 FC:/Users/Asus/Desktop/jadid/Shift_Left2.sv
+!i122 237
+L0 5 3
+R6
+r1
+!s85 0
+31
+R13
+Z22 !s107 C:/Users/Asus/Desktop/jadid/Shift_Left2.sv|
+Z23 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Asus/Desktop/jadid/Shift_Left2.sv|
+!i113 1
+R8
+R9
+n@shl2_26
+vShl2_32
+R0
+R10
+!i10b 1
+!s100 hiFh2mT?3okl[JnC:9DJf1
+R2
+Iig?z`C?i5RICibdJk<L=a1
+R3
+S1
+R4
+R19
+R20
+R21
+!i122 237
+R11
+R6
+r1
+!s85 0
+31
+R13
+R22
+R23
+!i113 1
+R8
+R9
+n@shl2_32
+vSign_extend
+R0
+R10
+!i10b 1
+!s100 _0WM7fl>@Cd>[2gI3oaYc0
+R2
+I^>;zE8MfdNVzbFSLo@0aY0
+R3
+S1
+R4
+w1639058299
+8C:/Users/Asus/Desktop/jadid/SignExtend.sv
+FC:/Users/Asus/Desktop/jadid/SignExtend.sv
+!i122 238
+L0 1 13
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Asus/Desktop/jadid/SignExtend.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Asus/Desktop/jadid/SignExtend.sv|
+!i113 1
+R8
+R9
+n@sign_extend
+vTB
+R0
+R10
+!i10b 1
+!s100 0fOBPTBS=XK><<_U9?>c22
+R2
+IedeYKgH9>`L46Bzi13GIO0
+R3
+S1
+R4
+w1639203154
+8C:/Users/Asus/Desktop/jadid/Testbench.sv
+FC:/Users/Asus/Desktop/jadid/Testbench.sv
+!i122 239
+L0 2 52
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Asus/Desktop/jadid/Testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Asus/Desktop/jadid/Testbench.sv|
+!i113 1
+R8
+R9
+n@t@b

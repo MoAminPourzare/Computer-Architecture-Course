@@ -1,0 +1,58 @@
+# Compile of main.v was successful.
+# Compile of test.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.TBregressor
+# vsim -gui work.TBregressor 
+# Start time: 20:41:29 on Apr 10,2022
+# Loading work.TBregressor
+# Loading work.regressor
+# Loading work.error_checker
+# Loading work.controller_a
+# Loading work.coefficent_calculator
+# Loading work.myreg40
+# Loading work.myreg20
+# Loading work.data_loader
+add wave -position insertpoint  \
+sim:/TBregressor/s \
+sim:/TBregressor/rst \
+sim:/TBregressor/clk \
+sim:/TBregressor/xi \
+sim:/TBregressor/yi \
+sim:/TBregressor/error \
+sim:/TBregressor/b0 \
+sim:/TBregressor/b1 \
+sim:/TBregressor/busy \
+sim:/TBregressor/ready \
+sim:/TBregressor/memX \
+sim:/TBregressor/memY \
+sim:/TBregressor/i
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: far  Hostname: HOHA  ProcessID: 4352
+#           Attempting to use alternate WLF file "./wlftbcitjb".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftbcitjb
+add wave -position insertpoint sim:/TBregressor/c1/a2/*
+add wave -position insertpoint sim:/TBregressor/c1/a4/*
+run -all
+# ** Note: $stop    : E:/Logic_Gate_Projects(UT)/modelsim/CA/ca1/test.v(35)
+#    Time: 31580 ns  Iteration: 0  Instance: /TBregressor
+# Break in Module TBregressor at E:/Logic_Gate_Projects(UT)/modelsim/CA/ca1/test.v line 35
+# Compile of main.v was successful.
+# Compile of test.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TBregressor
+# Loading work.regressor
+# Loading work.error_checker
+# Loading work.controller_a
+# Loading work.coefficent_calculator
+# Loading work.myreg40
+# Loading work.myreg20
+# Loading work.data_loader
+run -all
+# ** Note: $stop    : E:/Logic_Gate_Projects(UT)/modelsim/CA/ca1/test.v(35)
+#    Time: 31580 ns  Iteration: 0  Instance: /TBregressor
+# Break in Module TBregressor at E:/Logic_Gate_Projects(UT)/modelsim/CA/ca1/test.v line 35
+# End time: 21:01:49 on Apr 10,2022, Elapsed time: 0:20:20
+# Errors: 0, Warnings: 1

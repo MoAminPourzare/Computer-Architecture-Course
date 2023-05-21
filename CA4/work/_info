@@ -1,0 +1,711 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Asus/Desktop/CA2
+vaddress_inc
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1655466675
+!i10b 1
+!s100 ^fBO;]QY:cX24@D=W521N1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ii0O0A^]j092^HHQNQB7mf2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/Halo/Desktop/CA2
+w1639058265
+8C:/Users/Halo/Desktop/CA2/Adder.sv
+FC:/Users/Halo/Desktop/CA2/Adder.sv
+!i122 315
+Z5 L0 1 5
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1655466675.000000
+!s107 C:/Users/Halo/Desktop/CA2/Adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Halo/Desktop/CA2/Adder.sv|
+!i113 1
+Z8 o-work work -sv
+Z9 tCvgOpt 0
+vALU_16bit
+R0
+R1
+!i10b 1
+!s100 ?P4z?D1d1SW2^9YWm4g1a3
+R2
+InWV0FPLd^J3lUjCm@BJfL3
+R3
+S1
+R4
+w1655466452
+8C:\Users\Halo\Desktop\CA2\ALU.sv
+FC:\Users\Halo\Desktop\CA2\ALU.sv
+!i122 316
+Z10 L0 1 36
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:\Users\Halo\Desktop\CA2\ALU.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\Halo\Desktop\CA2\ALU.sv|
+!i113 1
+R8
+R9
+n@a@l@u_16bit
+vALU_32bit
+R0
+!s110 1655466397
+!i10b 1
+!s100 F;9WdDj[5SK]5Pn^IbKkg2
+R2
+I502T_LSBUO]IiKWH]hDDn0
+R3
+S1
+R4
+w1651514375
+8C:/Users/Halo/Desktop/CA2/ALU.sv
+FC:/Users/Halo/Desktop/CA2/ALU.sv
+!i122 286
+R10
+R6
+r1
+!s85 0
+31
+!s108 1655466397.000000
+!s107 C:/Users/Halo/Desktop/CA2/ALU.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Halo/Desktop/CA2/ALU.sv|
+!i113 1
+R8
+R9
+n@a@l@u_32bit
+vALU_control
+R0
+R1
+!i10b 1
+!s100 >ZIVEGG9zHoi:cR=?CEHM3
+R2
+IY2C=9mNEKeFR=zFAfkn7m1
+R3
+S1
+R4
+w1639178056
+8C:/Users/Halo/Desktop/CA2/ALU_CU.sv
+FC:/Users/Halo/Desktop/CA2/ALU_CU.sv
+!i122 317
+L0 1 28
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Halo/Desktop/CA2/ALU_CU.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Halo/Desktop/CA2/ALU_CU.sv|
+!i113 1
+R8
+R9
+n@a@l@u_control
+vcontroller
+R0
+R1
+!i10b 1
+!s100 gI5J]3Y4^DH7gPFdkU2992
+R2
+IJ^T?WUN@NTddK42]bSaHT0
+R3
+S1
+R4
+w1651513233
+8C:/Users/Halo/Desktop/CA2/Controller.sv
+FC:/Users/Halo/Desktop/CA2/Controller.sv
+!i122 318
+L0 1 65
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Halo/Desktop/CA2/Controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Halo/Desktop/CA2/Controller.sv|
+!i113 1
+R8
+R9
+vData_Memory
+R0
+!s110 1652035646
+!i10b 1
+!s100 VNFZ>7L828V=K6Ai@QSbA0
+R2
+IN7N`YmZ;l;;T>l2h3k[mi0
+R3
+S1
+Z11 dC:/Users/Asus/Desktop/pp
+w1639201876
+8C:/Users/Asus/Desktop/jadid/DataMemory.sv
+FC:/Users/Asus/Desktop/jadid/DataMemory.sv
+!i122 228
+Z12 L0 1 18
+R6
+r1
+!s85 0
+31
+Z13 !s108 1652035646.000000
+!s107 C:/Users/Asus/Desktop/jadid/DataMemory.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Asus/Desktop/jadid/DataMemory.sv|
+!i113 1
+R8
+R9
+n@data_@memory
+vData_path
+R0
+R1
+!i10b 1
+!s100 SC9`]XT8AY=J3Ld<DVIKa1
+R2
+Ie4kYlE>R_JajVW6VXMfcl1
+R3
+S1
+R4
+w1655466301
+8C:\Users\Halo\Desktop\CA2\DataPath.sv
+FC:\Users\Halo\Desktop\CA2\DataPath.sv
+!i122 319
+L0 2 59
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:\Users\Halo\Desktop\CA2\DataPath.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\Halo\Desktop\CA2\DataPath.sv|
+!i113 1
+R8
+R9
+n@data_path
+vInstruction_memory
+R0
+!s110 1652035647
+!i10b 1
+!s100 W_E5<AYhCKPok1hT?dWd03
+R2
+I[:z2JhK7:z[XfRFOzYGbk0
+R3
+S1
+R11
+w1639203108
+8C:/Users/Asus/Desktop/jadid/InstructionMemory.sv
+FC:/Users/Asus/Desktop/jadid/InstructionMemory.sv
+!i122 230
+Z14 L0 1 3
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Asus/Desktop/jadid/InstructionMemory.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Asus/Desktop/jadid/InstructionMemory.sv|
+!i113 1
+R8
+R9
+n@instruction_memory
+vMemory
+R0
+R1
+!i10b 1
+!s100 D<<PC5cc<Z=EYcKJU>gdd1
+R2
+Ib^_9e7@9Ej^3]QDoHZGJB0
+R3
+S1
+R4
+w1655466672
+8C:\Users\Halo\Desktop\CA2\Memory.sv
+FC:\Users\Halo\Desktop\CA2\Memory.sv
+!i122 320
+R12
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:\Users\Halo\Desktop\CA2\Memory.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\Halo\Desktop\CA2\Memory.sv|
+!i113 1
+R8
+R9
+n@memory
+vMIPS
+R0
+R1
+!i10b 1
+!s100 ;?gkdzh<GEPFFV5Tezz_83
+R2
+I5NkI=2<3a0emPm8neQbNW3
+R3
+S1
+R4
+w1651514365
+8C:/Users/Halo/Desktop/CA2/MIPS.sv
+FC:/Users/Halo/Desktop/CA2/MIPS.sv
+!i122 321
+Z15 L0 2 11
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Halo/Desktop/CA2/MIPS.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Halo/Desktop/CA2/MIPS.sv|
+!i113 1
+R8
+R9
+n@m@i@p@s
+vMux2to1_12bit
+R0
+Z16 !s110 1655466676
+!i10b 1
+!s100 8Lle9V?>J7l]DN8PT5JX]3
+R2
+IQ8:DafKD7@R@]2Z9Jc3OK3
+R3
+S1
+R4
+Z17 w1655466394
+Z18 8C:\Users\Halo\Desktop\CA2\MUX.sv
+Z19 FC:\Users\Halo\Desktop\CA2\MUX.sv
+!i122 322
+Z20 L0 2 7
+R6
+r1
+!s85 0
+31
+R7
+Z21 !s107 C:\Users\Halo\Desktop\CA2\MUX.sv|
+Z22 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\Halo\Desktop\CA2\MUX.sv|
+!i113 1
+R8
+R9
+n@mux2to1_12bit
+vMux2to1_32bit
+R0
+Z23 !s110 1655466345
+!i10b 1
+!s100 @>Ih]1m<d^`_iG0ZMJZd:0
+R2
+IcGWMP3H^bkQSYTdg2VBZ33
+R3
+S1
+R4
+Z24 w1655464673
+Z25 8C:/Users/Halo/Desktop/CA2/MUX.sv
+Z26 FC:/Users/Halo/Desktop/CA2/MUX.sv
+!i122 277
+R20
+R6
+r1
+!s85 0
+31
+Z27 !s108 1655466345.000000
+Z28 !s107 C:/Users/Halo/Desktop/CA2/MUX.sv|
+Z29 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Halo/Desktop/CA2/MUX.sv|
+!i113 1
+R8
+R9
+n@mux2to1_32bit
+vMux3to1_12bit
+R0
+R16
+!i10b 1
+!s100 k[a6;:29dal_^hkB?Sk961
+R2
+I6PHiS0B5`;IN_XL7I7ARD0
+R3
+S1
+R4
+R17
+R18
+R19
+!i122 322
+Z30 L0 21 8
+R6
+r1
+!s85 0
+31
+R7
+R21
+R22
+!i113 1
+R8
+R9
+n@mux3to1_12bit
+vMux3to1_32bit
+R0
+R23
+!i10b 1
+!s100 O>I1:oRXH8kUHTXR]ZAhK1
+R2
+I7QQkaecc6[U7MHPjZA>Cn0
+R3
+S1
+R4
+R24
+R25
+R26
+!i122 277
+R30
+R6
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 1
+R8
+R9
+n@mux3to1_32bit
+vMux3to1_5bit
+R0
+R16
+!i10b 1
+!s100 RSMMagROm9_:fNLMJ753Z1
+R2
+I;bH7eZlIkeIN=VA]kDH0<2
+R3
+S1
+R4
+R17
+R18
+R19
+!i122 322
+L0 10 8
+R6
+r1
+!s85 0
+31
+R7
+R21
+R22
+!i113 1
+R8
+R9
+n@mux3to1_5bit
+vMux4to1_12bit
+R0
+R16
+!i10b 1
+!s100 ML0WTOcbnhfQ;]_BI<DoB3
+R2
+IcO;3=iTUakGTJ?m2Q?kGC3
+R3
+S1
+R4
+R17
+R18
+R19
+!i122 322
+Z31 L0 30 8
+R6
+r1
+!s85 0
+31
+R7
+R21
+R22
+!i113 1
+R8
+R9
+n@mux4to1_12bit
+vMux4to1_32bit
+R0
+R23
+!i10b 1
+!s100 EHYZWLzJzO7nk2P=5Nd:V1
+R2
+I^ZH2QP<<5R^k^=JCMcc[T0
+R3
+S1
+R4
+R24
+R25
+R26
+!i122 277
+R31
+R6
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 1
+R8
+R9
+n@mux4to1_32bit
+vPC
+R0
+R16
+!i10b 1
+!s100 ^17K<EMNUXmOiEF;1F9K13
+R2
+IY7FLXS?zzIU2liW]?Pmz23
+R3
+S1
+R4
+w1639058565
+8C:/Users/Halo/Desktop/CA2/PC.sv
+FC:/Users/Halo/Desktop/CA2/PC.sv
+!i122 323
+R15
+R6
+r1
+!s85 0
+31
+Z32 !s108 1655466676.000000
+!s107 C:/Users/Halo/Desktop/CA2/PC.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Halo/Desktop/CA2/PC.sv|
+!i113 1
+R8
+R9
+n@p@c
+vPC_inc
+R0
+R16
+!i10b 1
+!s100 F?Ai9cW:Uc915b=lCIg2]0
+R2
+Im=5UW@mdT^<md:9W_JOgg3
+R3
+S1
+R4
+w1639058621
+8C:/Users/Halo/Desktop/CA2/PC_INCREMENT.sv
+FC:/Users/Halo/Desktop/CA2/PC_INCREMENT.sv
+!i122 324
+R5
+R6
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/Halo/Desktop/CA2/PC_INCREMENT.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Halo/Desktop/CA2/PC_INCREMENT.sv|
+!i113 1
+R8
+R9
+n@p@c_inc
+vREG16
+R0
+R16
+!i10b 1
+!s100 >3GSHaNC3Kc<MENSjJ9GU3
+R2
+I^?PQ8dObjBFKA567`za1@1
+R3
+S1
+R4
+Z33 w1655466340
+Z34 8C:\Users\Halo\Desktop\CA2\REG16.sv
+Z35 FC:\Users\Halo\Desktop\CA2\REG16.sv
+!i122 326
+L0 3 14
+R6
+r1
+!s85 0
+31
+R32
+Z36 !s107 C:\Users\Halo\Desktop\CA2\REG16.sv|
+Z37 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\Halo\Desktop\CA2\REG16.sv|
+!i113 1
+R8
+R9
+n@r@e@g16
+vREG32
+R0
+R16
+!i10b 1
+!s100 W^2al9_WY;h1Xld=7fNSn3
+R2
+IEXe?K8BOj4jfCFC0e8KC20
+R3
+S1
+R4
+R33
+R34
+R35
+!i122 326
+L0 20 14
+R6
+r1
+!s85 0
+31
+R32
+R36
+R37
+!i113 1
+R8
+R9
+n@r@e@g32
+vRegister_file
+R0
+R16
+!i10b 1
+!s100 Fe5EZl=DC`PXmJR1lYmR=1
+R2
+IfLOAhfd@W1X10lgXM<=2]3
+R3
+S1
+R4
+w1655464677
+8C:/Users/Halo/Desktop/CA2/REG_FILE.sv
+FC:/Users/Halo/Desktop/CA2/REG_FILE.sv
+!i122 325
+L0 2 36
+R6
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/Halo/Desktop/CA2/REG_FILE.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Halo/Desktop/CA2/REG_FILE.sv|
+!i113 1
+R8
+R9
+n@register_file
+vShl2_12
+R0
+R16
+!i10b 1
+!s100 5eKX^Vk0fR2Ki5MT<5=m73
+R2
+I^of793AdbegSUCPWhUcLU1
+R3
+S1
+R4
+Z38 w1655466477
+Z39 8C:\Users\Halo\Desktop\CA2\Shift_Left2.sv
+Z40 FC:\Users\Halo\Desktop\CA2\Shift_Left2.sv
+!i122 327
+R14
+R6
+r1
+!s85 0
+31
+R32
+Z41 !s107 C:\Users\Halo\Desktop\CA2\Shift_Left2.sv|
+Z42 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\Halo\Desktop\CA2\Shift_Left2.sv|
+!i113 1
+R8
+R9
+n@shl2_12
+vShl2_26
+R0
+R16
+!i10b 1
+!s100 Zk<?^am8N[P6C6A8fe`J`0
+R2
+I>9Ki>]=0a[6HY28US3G<h0
+R3
+S1
+R4
+R38
+R39
+R40
+!i122 327
+L0 5 3
+R6
+r1
+!s85 0
+31
+R32
+R41
+R42
+!i113 1
+R8
+R9
+n@shl2_26
+vShl2_32
+R0
+!s110 1655466399
+!i10b 1
+!s100 hiFh2mT?3okl[JnC:9DJf1
+R2
+I]hKYO83FL<H18@W06zzf=1
+R3
+S1
+R4
+w1639058382
+8C:/Users/Halo/Desktop/CA2/Shift_Left2.sv
+FC:/Users/Halo/Desktop/CA2/Shift_Left2.sv
+!i122 297
+R14
+R6
+r1
+!s85 0
+31
+!s108 1655466398.000000
+!s107 C:/Users/Halo/Desktop/CA2/Shift_Left2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Halo/Desktop/CA2/Shift_Left2.sv|
+!i113 1
+R8
+R9
+n@shl2_32
+vSign_extend
+R0
+Z43 !s110 1655466677
+!i10b 1
+!s100 _0WM7fl>@Cd>[2gI3oaYc0
+R2
+I_7d7E=Rhi?l]lH;c_C9T53
+R3
+S1
+R4
+w1639058299
+8C:/Users/Halo/Desktop/CA2/SignExtend.sv
+FC:/Users/Halo/Desktop/CA2/SignExtend.sv
+!i122 328
+L0 1 13
+R6
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/Halo/Desktop/CA2/SignExtend.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Halo/Desktop/CA2/SignExtend.sv|
+!i113 1
+R8
+R9
+n@sign_extend
+vTB
+R0
+R43
+!i10b 1
+!s100 0fOBPTBS=XK><<_U9?>c22
+R2
+I9UcKm8?M[AHDmoWh:afZg3
+R3
+S1
+R4
+w1639203154
+8C:/Users/Halo/Desktop/CA2/Testbench.sv
+FC:/Users/Halo/Desktop/CA2/Testbench.sv
+!i122 329
+L0 2 52
+R6
+r1
+!s85 0
+31
+!s108 1655466677.000000
+!s107 C:/Users/Halo/Desktop/CA2/Testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Halo/Desktop/CA2/Testbench.sv|
+!i113 1
+R8
+R9
+n@t@b

@@ -1,0 +1,499 @@
+# 0 compiles, 16 failed with no errors.
+# Compile of Adder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU_CU.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of DataPath.sv failed with 5 errors.
+# Compile of Memory.sv was successful.
+# Compile of MIPS.sv was successful with warnings.
+# Compile of MUX.sv was successful.
+# Compile of PC.sv was successful.
+# Compile of PC_INCREMENT.sv was successful.
+# Compile of REG_FILE.sv was successful.
+# Compile of REG16.sv was successful.
+# Compile of Shift_Left2.sv was successful.
+# Compile of SignExtend.sv was successful.
+# Compile of Testbench.sv was successful.
+# 15 compiles, 1 failed with 5 errors.
+# Compile of DataPath.sv was successful with warnings.
+# Compile of Adder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU_CU.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of DataPath.sv was successful with warnings.
+# Compile of Memory.sv was successful.
+# Compile of MIPS.sv was successful with warnings.
+# Compile of MUX.sv was successful.
+# Compile of PC.sv was successful.
+# Compile of PC_INCREMENT.sv was successful.
+# Compile of REG_FILE.sv was successful.
+# Compile of REG16.sv was successful.
+# Compile of Shift_Left2.sv was successful.
+# Compile of SignExtend.sv was successful.
+# Compile of Testbench.sv was successful.
+# 15 compiles, 0 failed with no errors.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 16:15:24 on Jun 17,2022
+# Loading sv_std.std
+# Loading work.TB
+# Loading work.MIPS
+# Loading work.Data_path
+# Loading work.PC
+# Loading work.PC_inc
+# ** Error: (vsim-3033) Instantiation of 'REG16' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/mips/DP File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 15
+#         Searched libraries:
+#             C:/Users/Halo/Desktop/CA2/work
+# ** Error: (vsim-3033) Instantiation of 'REG16' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/mips/DP File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 17
+#         Searched libraries:
+#             C:/Users/Halo/Desktop/CA2/work
+# Loading work.Sign_extend
+# ** Error: (vsim-3033) Instantiation of 'Mux3to1_12bit' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/mips/DP File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 21
+#         Searched libraries:
+#             C:/Users/Halo/Desktop/CA2/work
+# Loading work.Mux3to1_5bit
+# Loading work.Register_file
+# ** Error: (vsim-3033) Instantiation of 'REG16' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/mips/DP File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 27
+#         Searched libraries:
+#             C:/Users/Halo/Desktop/CA2/work
+# ** Error: (vsim-3033) Instantiation of 'REG16' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/mips/DP File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 29
+#         Searched libraries:
+#             C:/Users/Halo/Desktop/CA2/work
+# ** Error: (vsim-3033) Instantiation of 'Mux2to1_12bit' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/mips/DP File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 31
+#         Searched libraries:
+#             C:/Users/Halo/Desktop/CA2/work
+# ** Error: (vsim-3033) Instantiation of 'Shl2_12' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/mips/DP File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 33
+#         Searched libraries:
+#             C:/Users/Halo/Desktop/CA2/work
+# Loading work.address_inc
+# ** Error: (vsim-3033) Instantiation of 'Mux2to1_12bit' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/mips/DP File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 39
+#         Searched libraries:
+#             C:/Users/Halo/Desktop/CA2/work
+# Loading work.Shl2_26
+# ** Error: (vsim-3033) Instantiation of 'Mux2to1_12bit' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/mips/DP File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 45
+#         Searched libraries:
+#             C:/Users/Halo/Desktop/CA2/work
+# ** Error: (vsim-3033) Instantiation of 'Mux2to1_12bit' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/mips/DP File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 47
+#         Searched libraries:
+#             C:/Users/Halo/Desktop/CA2/work
+# ** Error: (vsim-3033) Instantiation of 'ALU_16bit' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/mips/DP File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 49
+#         Searched libraries:
+#             C:/Users/Halo/Desktop/CA2/work
+# ** Error: (vsim-3033) Instantiation of 'REG16' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/mips/DP File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 51
+#         Searched libraries:
+#             C:/Users/Halo/Desktop/CA2/work
+# Loading work.Memory
+# Loading work.Mux2to1_32bit
+# Loading work.controller
+# Loading work.ALU_control
+# Error loading design
+# End time: 16:15:25 on Jun 17,2022, Elapsed time: 0:00:01
+# Errors: 12, Warnings: 8
+# Compile of Adder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU_CU.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of DataPath.sv was successful with warnings.
+# Compile of Memory.sv was successful.
+# Compile of MIPS.sv was successful with warnings.
+# Compile of MUX.sv was successful.
+# Compile of PC.sv was successful.
+# Compile of PC_INCREMENT.sv was successful.
+# Compile of REG_FILE.sv was successful.
+# Compile of REG16.sv was successful.
+# Compile of Shift_Left2.sv was successful.
+# Compile of SignExtend.sv was successful.
+# Compile of Testbench.sv was successful.
+# 15 compiles, 0 failed with no errors.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 16:15:56 on Jun 17,2022
+# Loading sv_std.std
+# Loading work.TB
+# Loading work.MIPS
+# Loading work.Data_path
+# Loading work.PC
+# Loading work.PC_inc
+# Loading work.REG16
+# Loading work.Sign_extend
+# ** Error: (vsim-3033) Instantiation of 'Mux3to1_12bit' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/mips/DP File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 21
+#         Searched libraries:
+#             C:/Users/Halo/Desktop/CA2/work
+# Loading work.Mux3to1_5bit
+# Loading work.Register_file
+# ** Error: (vsim-3033) Instantiation of 'Mux2to1_12bit' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/mips/DP File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 31
+#         Searched libraries:
+#             C:/Users/Halo/Desktop/CA2/work
+# ** Error: (vsim-3033) Instantiation of 'Shl2_12' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/mips/DP File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 33
+#         Searched libraries:
+#             C:/Users/Halo/Desktop/CA2/work
+# Loading work.address_inc
+# ** Error: (vsim-3033) Instantiation of 'Mux2to1_12bit' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/mips/DP File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 39
+#         Searched libraries:
+#             C:/Users/Halo/Desktop/CA2/work
+# Loading work.Shl2_26
+# ** Error: (vsim-3033) Instantiation of 'Mux2to1_12bit' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/mips/DP File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 45
+#         Searched libraries:
+#             C:/Users/Halo/Desktop/CA2/work
+# ** Error: (vsim-3033) Instantiation of 'Mux2to1_12bit' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/mips/DP File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 47
+#         Searched libraries:
+#             C:/Users/Halo/Desktop/CA2/work
+# ** Error: (vsim-3033) Instantiation of 'ALU_16bit' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/mips/DP File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 49
+#         Searched libraries:
+#             C:/Users/Halo/Desktop/CA2/work
+# Loading work.Memory
+# Loading work.Mux2to1_32bit
+# Loading work.controller
+# Loading work.ALU_control
+# Error loading design
+# End time: 16:15:56 on Jun 17,2022, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 2
+# Compile of Adder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU_CU.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of DataPath.sv was successful with warnings.
+# Compile of Memory.sv was successful.
+# Compile of MIPS.sv was successful with warnings.
+# Compile of MUX.sv was successful.
+# Compile of PC.sv was successful.
+# Compile of PC_INCREMENT.sv was successful.
+# Compile of REG_FILE.sv was successful.
+# Compile of REG16.sv was successful.
+# Compile of Shift_Left2.sv was successful.
+# Compile of SignExtend.sv was successful.
+# Compile of Testbench.sv was successful.
+# 15 compiles, 0 failed with no errors.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 16:16:48 on Jun 17,2022
+# Loading sv_std.std
+# Loading work.TB
+# Loading work.MIPS
+# Loading work.Data_path
+# Loading work.PC
+# Loading work.PC_inc
+# Loading work.REG16
+# Loading work.Sign_extend
+# Loading work.Mux3to1_12bit
+# Loading work.Mux3to1_5bit
+# Loading work.Register_file
+# Loading work.Mux2to1_12bit
+# ** Error: (vsim-3033) Instantiation of 'Shl2_12' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/mips/DP File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 33
+#         Searched libraries:
+#             C:/Users/Halo/Desktop/CA2/work
+# Loading work.address_inc
+# Loading work.Shl2_26
+# ** Error: (vsim-3033) Instantiation of 'ALU_16bit' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/mips/DP File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 49
+#         Searched libraries:
+#             C:/Users/Halo/Desktop/CA2/work
+# Loading work.Memory
+# Loading work.Mux2to1_32bit
+# Loading work.controller
+# Loading work.ALU_control
+# Error loading design
+# End time: 16:16:48 on Jun 17,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 2
+# Compile of Adder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU_CU.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of DataPath.sv was successful with warnings.
+# Compile of Memory.sv was successful.
+# Compile of MIPS.sv was successful with warnings.
+# Compile of MUX.sv was successful.
+# Compile of PC.sv was successful.
+# Compile of PC_INCREMENT.sv was successful.
+# Compile of REG_FILE.sv was successful.
+# Compile of REG16.sv was successful.
+# Compile of Shift_Left2.sv was successful with warnings.
+# Compile of SignExtend.sv was successful.
+# Compile of Testbench.sv was successful.
+# 15 compiles, 0 failed with no errors.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 16:18:17 on Jun 17,2022
+# Loading sv_std.std
+# Loading work.TB
+# Loading work.MIPS
+# Loading work.Data_path
+# Loading work.PC
+# Loading work.PC_inc
+# Loading work.REG16
+# Loading work.Sign_extend
+# Loading work.Mux3to1_12bit
+# Loading work.Mux3to1_5bit
+# Loading work.Register_file
+# Loading work.Mux2to1_12bit
+# Loading work.Shl2_12
+# Loading work.address_inc
+# Loading work.Shl2_26
+# Loading work.ALU_16bit
+# Loading work.Memory
+# Loading work.Mux2to1_32bit
+# Loading work.controller
+# Loading work.ALU_control
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'PC'. The port definition is at: C:/Users/Halo/Desktop/CA2/PC.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_PC File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'PC_out'. The port definition is at: C:/Users/Halo/Desktop/CA2/PC.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_PC File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'PC'. The port definition is at: C:/Users/Halo/Desktop/CA2/PC_INCREMENT.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_PCinc File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'PC_inc_out'. The port definition is at: C:/Users/Halo/Desktop/CA2/PC_INCREMENT.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_PCinc File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (12) for port 'In'. The port definition is at: C:/Users/Halo/Desktop/CA2/SignExtend.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_SE File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'Out'. The port definition is at: C:/Users/Halo/Desktop/CA2/SignExtend.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_SE File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In1'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(21).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_mux4_12 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In2'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(21).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_mux4_12 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'In3'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(21).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_mux4_12 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'Out'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(21).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_mux4_12 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'In3'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(10).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_mux3_4 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 23
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (3) for port 'Read_reg2'. The port definition is at: C:/Users/Halo/Desktop/CA2/REG_FILE.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_RF File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'write_reg'. The port definition is at: C:/Users/Halo/Desktop/CA2/REG_FILE.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_RF File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'write_data'. The port definition is at: C:/Users/Halo/Desktop/CA2/REG_FILE.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_RF File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'Read_data1'. The port definition is at: C:/Users/Halo/Desktop/CA2/REG_FILE.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_RF File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'Read_data2'. The port definition is at: C:/Users/Halo/Desktop/CA2/REG_FILE.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_RF File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In1'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_mux2_12 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 31
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In2'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_mux2_12 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 31
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'Out'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_mux2_12 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 31
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In'. The port definition is at: C:/Users/Halo/Desktop/CA2/Shift_Left2.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_shl2 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'Out'. The port definition is at: C:/Users/Halo/Desktop/CA2/Shift_Left2.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_shl2 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'In1'. The port definition is at: C:/Users/Halo/Desktop/CA2/Adder.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_inc_adr File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'In2'. The port definition is at: C:/Users/Halo/Desktop/CA2/Adder.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_inc_adr File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'adr_inc_out'. The port definition is at: C:/Users/Halo/Desktop/CA2/Adder.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_inc_adr File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In1'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT3_mux2_12 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 39
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In2'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT3_mux2_12 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 39
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'Out'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT3_mux2_12 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 39
+# ** Warning: (vsim-3015) [PCDPC] - Port size (26) does not match connection size (12) for port 'In'. The port definition is at: C:/Users/Halo/Desktop/CA2/Shift_Left2.sv(5).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT2_shl2 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 41
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In1'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/m4 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 45
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In2'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/m4 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 45
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'Out'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/m4 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 45
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In1'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/m5 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In2'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/m5 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'Out'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/m5 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'Out'. The port definition is at: C:/Users/Halo/Desktop/CA2/ALU.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_ALU File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 49
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'data'. The port definition is at: C:/Users/Halo/Desktop/CA2/REG16.sv(3).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/ALUregout File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'Write_data'. The port definition is at: C:/Users/Halo/Desktop/CA2/Memory.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_Mem File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'Mem_read_value'. The port definition is at: C:/Users/Halo/Desktop/CA2/Memory.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_Mem File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'In1'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT2_mux2_32 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 55
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In2'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT2_mux2_32 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 55
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'Out'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT2_mux2_32 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 55
+add wave -position insertpoint sim:/TB/mips/DP/CUT_Mem/max_element
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: saeed  Hostname: DESKTOP-52GGFBA  ProcessID: 8496
+#           Attempting to use alternate WLF file "./wlft3r9e5i".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft3r9e5i
+add wave -position insertpoint sim:/TB/mips/DP/CUT_Mem/max_element_i
+add wave -position insertpoint  \
+sim:/TB/mips/DP/CUT_Mem/clk \
+sim:/TB/mips/DP/CUT_Mem/Address \
+sim:/TB/mips/DP/CUT_Mem/Write_data \
+sim:/TB/mips/DP/CUT_Mem/Mem_read \
+sim:/TB/mips/DP/CUT_Mem/Mem_write \
+sim:/TB/mips/DP/CUT_Mem/Mem_read_value \
+sim:/TB/mips/DP/CUT_Mem/Mem_data
+run -all
+# ** Note: $stop    : C:/Users/Halo/Desktop/CA2/Testbench.sv(50)
+#    Time: 100330 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/Halo/Desktop/CA2/Testbench.sv line 50
+quit -sim
+# End time: 16:20:38 on Jun 17,2022, Elapsed time: 0:02:21
+# Errors: 0, Warnings: 45
+# Compile of Adder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU_CU.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of DataPath.sv was successful with warnings.
+# Compile of Memory.sv was successful.
+# Compile of MIPS.sv was successful with warnings.
+# Compile of MUX.sv was successful.
+# Compile of PC.sv was successful.
+# Compile of PC_INCREMENT.sv was successful.
+# Compile of REG_FILE.sv was successful.
+# Compile of REG16.sv was successful.
+# Compile of Shift_Left2.sv was successful with warnings.
+# Compile of SignExtend.sv was successful.
+# Compile of Testbench.sv was successful.
+# 15 compiles, 0 failed with no errors.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 16:22:28 on Jun 17,2022
+# Loading sv_std.std
+# Loading work.TB
+# Loading work.MIPS
+# Loading work.Data_path
+# Loading work.PC
+# Loading work.PC_inc
+# Loading work.REG16
+# Loading work.Sign_extend
+# Loading work.Mux3to1_12bit
+# Loading work.Mux3to1_5bit
+# Loading work.Register_file
+# Loading work.Mux2to1_12bit
+# Loading work.Shl2_12
+# Loading work.address_inc
+# Loading work.Shl2_26
+# Loading work.ALU_16bit
+# Loading work.Memory
+# Loading work.Mux2to1_32bit
+# Loading work.controller
+# Loading work.ALU_control
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'PC'. The port definition is at: C:/Users/Halo/Desktop/CA2/PC.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_PC File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'PC_out'. The port definition is at: C:/Users/Halo/Desktop/CA2/PC.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_PC File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 11
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'PC'. The port definition is at: C:/Users/Halo/Desktop/CA2/PC_INCREMENT.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_PCinc File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'PC_inc_out'. The port definition is at: C:/Users/Halo/Desktop/CA2/PC_INCREMENT.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_PCinc File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (12) for port 'In'. The port definition is at: C:/Users/Halo/Desktop/CA2/SignExtend.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_SE File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'Out'. The port definition is at: C:/Users/Halo/Desktop/CA2/SignExtend.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_SE File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In1'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(21).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_mux4_12 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In2'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(21).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_mux4_12 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'In3'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(21).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_mux4_12 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'Out'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(21).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_mux4_12 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 21
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'In3'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(10).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_mux3_4 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 23
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (3) for port 'Read_reg2'. The port definition is at: C:/Users/Halo/Desktop/CA2/REG_FILE.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_RF File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (4) for port 'write_reg'. The port definition is at: C:/Users/Halo/Desktop/CA2/REG_FILE.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_RF File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'write_data'. The port definition is at: C:/Users/Halo/Desktop/CA2/REG_FILE.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_RF File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'Read_data1'. The port definition is at: C:/Users/Halo/Desktop/CA2/REG_FILE.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_RF File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'Read_data2'. The port definition is at: C:/Users/Halo/Desktop/CA2/REG_FILE.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_RF File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In1'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_mux2_12 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 31
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In2'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_mux2_12 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 31
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'Out'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_mux2_12 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 31
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In'. The port definition is at: C:/Users/Halo/Desktop/CA2/Shift_Left2.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_shl2 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'Out'. The port definition is at: C:/Users/Halo/Desktop/CA2/Shift_Left2.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_shl2 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'In1'. The port definition is at: C:/Users/Halo/Desktop/CA2/Adder.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_inc_adr File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'In2'. The port definition is at: C:/Users/Halo/Desktop/CA2/Adder.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_inc_adr File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (16) for port 'adr_inc_out'. The port definition is at: C:/Users/Halo/Desktop/CA2/Adder.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_inc_adr File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In1'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT3_mux2_12 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 39
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In2'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT3_mux2_12 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 39
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'Out'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT3_mux2_12 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 39
+# ** Warning: (vsim-3015) [PCDPC] - Port size (26) does not match connection size (12) for port 'In'. The port definition is at: C:/Users/Halo/Desktop/CA2/Shift_Left2.sv(5).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT2_shl2 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 41
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In1'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/m4 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 45
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In2'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/m4 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 45
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'Out'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/m4 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 45
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In1'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/m5 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In2'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/m5 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'Out'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/m5 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 47
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'Out'. The port definition is at: C:/Users/Halo/Desktop/CA2/ALU.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_ALU File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 49
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (32) for port 'data'. The port definition is at: C:/Users/Halo/Desktop/CA2/REG16.sv(3).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/ALUregout File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 51
+# ** Warning: (vsim-3015) [PCDPC] - Port size (13) does not match connection size (32) for port 'Address'. The port definition is at: C:/Users/Halo/Desktop/CA2/Memory.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_Mem File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (13) does not match connection size (16) for port 'Write_data'. The port definition is at: C:/Users/Halo/Desktop/CA2/Memory.sv(1).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_Mem File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (32) for port 'In1'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT2_mux2_32 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 55
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'In2'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT2_mux2_32 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 55
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'Out'. The port definition is at: C:/Users/Halo/Desktop/CA2/MUX.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT2_mux2_32 File: C:/Users/Halo/Desktop/CA2/DataPath.sv Line: 55
+add wave -position insertpoint sim:/TB/mips/DP/CUT_Mem/max_element
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: saeed  Hostname: DESKTOP-52GGFBA  ProcessID: 8496
+#           Attempting to use alternate WLF file "./wlft0ejjex".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft0ejjex
+add wave -position insertpoint sim:/TB/mips/DP/CUT_Mem/max_element_i
+add wave -position insertpoint  \
+sim:/TB/mips/DP/CUT_Mem/clk \
+sim:/TB/mips/DP/CUT_Mem/Address
+run -all
+# ** Warning: (vsim-PLI-3406) Too many digits (32) in data on line 2 of file "data_memory.mem". (Max is 16.)    : C:/Users/Halo/Desktop/CA2/Memory.sv(5)
+#    Time: 0 ns  Iteration: 0  Instance: /TB/mips/DP/CUT_Mem
+# ** Note: $stop    : C:/Users/Halo/Desktop/CA2/Testbench.sv(50)
+#    Time: 100330 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/Halo/Desktop/CA2/Testbench.sv line 50
+# End time: 16:24:17 on Jun 17,2022, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 46

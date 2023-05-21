@@ -1,0 +1,56 @@
+# Compile of Adder.sv was successful.
+# Compile of ALU.sv was successful.
+# Compile of ALU_CU.sv was successful.
+# Compile of Controller.sv was successful.
+# Compile of DataMemory.sv was successful.
+# Compile of DataPath.sv was successful with warnings.
+# Compile of InstructionMemory.sv was successful with warnings.
+# Compile of MIPS.sv was successful with warnings.
+# Compile of MUX.sv was successful.
+# Compile of PC.sv was successful.
+# Compile of PC_INCREMENT.sv was successful.
+# Compile of REG_FILE.sv was successful.
+# Compile of REG32.sv was successful.
+# Compile of Shift_Left2.sv was successful.
+# Compile of SignExtend.sv was successful.
+# Compile of Testbench.sv was successful.
+# 16 compiles, 0 failed with no errors.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 23:17:34 on May 08,2022
+# Loading sv_std.std
+# Loading work.TB
+# Loading work.MIPS
+# Loading work.Data_path
+# Loading work.PC
+# Loading work.PC_inc
+# Loading work.Sign_extend
+# Loading work.Instruction_memory
+# Loading work.Mux3to1_32bit
+# Loading work.Mux3to1_5bit
+# Loading work.Register_file
+# Loading work.Mux2to1_32bit
+# Loading work.Shl2_32
+# Loading work.address_inc
+# Loading work.Shl2_26
+# Loading work.ALU_32bit
+# Loading work.Data_Memory
+# Loading work.controller
+# Loading work.ALU_control
+add wave -position insertpoint  \
+sim:/TB/clk \
+sim:/TB/rst
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: saeed  Hostname: DESKTOP-52GGFBA  ProcessID: 8496
+#           Attempting to use alternate WLF file "./wlfta1h73m".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfta1h73m
+add wave -position insertpoint  \
+sim:/TB/mips/DP/CUT_DataMem/max_element \
+sim:/TB/mips/DP/CUT_DataMem/max_element_i
+run -all
+# ** Note: $stop    : C:/Users/Asus/Desktop/jadid/Testbench.sv(50)
+#    Time: 100330 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/Asus/Desktop/jadid/Testbench.sv line 50
+# End time: 23:18:53 on May 08,2022, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 4

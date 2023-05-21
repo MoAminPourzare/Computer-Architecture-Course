@@ -1,0 +1,243 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/Logic_Gate_Projects(UT)/modelsim/dld/CA6/CA6/Q/tan/simulation/modelsim
+vcoefficent_calculator
+Z0 !s110 1649607309
+!i10b 1
+!s100 dBYGj8K_k4i0V^8l4kIUk2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IElP:Jm4jic6@H0jjW?;Go0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dE:/Logic_Gate_Projects(UT)/modelsim/CA/ca1
+Z4 w1649607307
+Z5 8E:/Logic_Gate_Projects(UT)/modelsim/CA/ca1/main.v
+Z6 FE:/Logic_Gate_Projects(UT)/modelsim/CA/ca1/main.v
+!i122 114
+L0 49 75
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1649607309.000000
+Z9 !s107 E:/Logic_Gate_Projects(UT)/modelsim/CA/ca1/main.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|E:/Logic_Gate_Projects(UT)/modelsim/CA/ca1/main.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vcontroller_a
+R0
+!i10b 1
+!s100 nkO;Lc:FYH;OMWlf_bCjG3
+R1
+IKW2PPb_T?85L7dKT9YCdO0
+R2
+R3
+R4
+R5
+R6
+!i122 114
+L0 168 59
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vdata_loader
+R0
+!i10b 1
+!s100 f:39DQg:HDi`ij[kYTkTK0
+R1
+I2MPB4l@?eHElD2?gWA5:;1
+R2
+R3
+R4
+R5
+R6
+!i122 114
+L0 3 45
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+verror_checker
+R0
+!i10b 1
+!s100 Om3WK4^Lc0c;O<bQ2kT9X0
+R1
+Ig1NPiL[VE3T8lBb=<Ajc_2
+R2
+R3
+R4
+R5
+R6
+!i122 114
+L0 156 11
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vmyreg
+!s110 1649510407
+!i10b 1
+!s100 gfSAn>VRY1l=Db4FYIU_D1
+R1
+IFLcJEca9iQXh>DcB`ZK]m3
+R2
+R3
+w1649510405
+8E:\Logic_Gate_Projects(UT)\modelsim\CA\ca1\main.v
+FE:\Logic_Gate_Projects(UT)\modelsim\CA\ca1\main.v
+!i122 51
+Z13 L0 125 14
+R7
+r1
+!s85 0
+31
+!s108 1649510406.000000
+!s107 E:\Logic_Gate_Projects(UT)\modelsim\CA\ca1\main.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:\Logic_Gate_Projects(UT)\modelsim\CA\ca1\main.v|
+!i113 1
+R11
+R12
+vmyreg20
+R0
+!i10b 1
+!s100 1BVQEa7ZfT@?6<<]zb4Xg3
+R1
+IDFBf4=Uz=4jn?0hJ8<=HC1
+R2
+R3
+R4
+R5
+R6
+!i122 114
+R13
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vmyreg40
+R0
+!i10b 1
+!s100 f30JR2lj;K387b]UhP@J80
+R1
+IbLe=FW92_QiXNX>_>=fRe2
+R2
+R3
+R4
+R5
+R6
+!i122 114
+L0 140 14
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vregressor
+R0
+!i10b 1
+!s100 N9O@g6EYXIK3E0OlSR8A02
+R1
+I4SkeCf2HzodDakjP0;^0:1
+R2
+R3
+R4
+R5
+R6
+!i122 114
+L0 229 28
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vTBregressor
+R0
+!i10b 1
+!s100 P]WX_2TnHVWP4=XF`jD`92
+R1
+Ilk<UY`lnYdlGG<1PL>KZ20
+R2
+R3
+w1649518350
+8E:/Logic_Gate_Projects(UT)/modelsim/CA/ca1/test.v
+FE:/Logic_Gate_Projects(UT)/modelsim/CA/ca1/test.v
+!i122 115
+L0 3 35
+R7
+r1
+!s85 0
+31
+R8
+!s107 E:/Logic_Gate_Projects(UT)/modelsim/CA/ca1/test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/Logic_Gate_Projects(UT)/modelsim/CA/ca1/test.v|
+!i113 1
+R11
+R12
+n@t@bregressor
+vTBtan
+!s110 1649510999
+!i10b 1
+!s100 L01XMCR?V?9cgf;9@b6?m2
+R1
+IG36=Em7E1;Ogm2N2Sz1cB0
+R2
+R3
+w1649510196
+8E:\Logic_Gate_Projects(UT)\modelsim\CA\ca1\test.v
+FE:\Logic_Gate_Projects(UT)\modelsim\CA\ca1\test.v
+!i122 58
+L0 3 17
+R7
+r1
+!s85 0
+31
+!s108 1649510999.000000
+!s107 E:\Logic_Gate_Projects(UT)\modelsim\CA\ca1\test.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:\Logic_Gate_Projects(UT)\modelsim\CA\ca1\test.v|
+!i113 1
+R11
+R12
+n@t@btan

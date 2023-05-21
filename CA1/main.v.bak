@@ -1,0 +1,257 @@
+`timescale 1ns/1ns
+//======================================
+module data_loader(input [19:0]xi, yi,
+input load1,cnt_en1,load_cnt,clk,rst,
+output [19:0]xio,yio,
+output co1);
+
+reg [19:0]memx[0:149];
+reg [19:0]memy[0:149];
+reg [7:0] cntmem1;
+wire [7:0] addr;
+
+integer i;
+assign addr = cntmem1 + (~(8'd106) + 1);
+
+//counter1
+always @(posedge clk)begin
+	if(load_cnt)
+		cntmem1 <= 8'd106;
+	else if(cnt_en1)
+		cntmem1 <= cntmem1 + 1;
+end
+assign co1 = &cntmem1;
+//memx
+always @(posedge clk or posedge rst)begin
+	if (rst) begin
+            for (i = 0; i < 150; i = i + 1)
+                memx[i] <= 0;
+            end
+	else
+		if(load1)
+			memx[addr] <= xi;
+end
+//memy
+always @(posedge clk or posedge rst)begin
+if (rst) begin
+            for (i = 0; i < 150; i = i + 1)
+                memx[i] <= 0;
+            end
+	else
+		if(load1)
+			memy[addr] <= yi;
+end
+
+assign xio = memx[addr];
+assign yio = memy[addr];
+endmodule
+//======================================
+module coefficent_calculator(input [19:0]xi, yi,
+input s11,s12,s13,s21,s22,s3,s41,s42,s5,ci,clk,
+inita,initb,loada,loadb,initb0,initb1,loadb0,loadb1,
+loadsy,loadsx,initsx,initsy,
+output [19:0]b1,b0);
+
+wire [19:0]mult1,mult2,mult4,mult5;
+wire [39:0]ansmult;
+wire [39:0] mult3;
+wire [39:0]adder1;
+wire [19:0] avrxn;
+wire [19:0] avryn;
+wire [39:0] ssxy;
+wire [39:0] ssxx;
+wire [19:0]div;
+
+//multiplexer1
+assign mult1 =  (~s21 && ~s22) ? xi :
+		(~s21 &&  s22) ? div :
+				 20'b0 ;
+
+
+//multiplexer2
+assign mult2 =  (~s13 && ~s11 && ~s12) ? yi :
+		(~s13 && ~s11 &&  s12) ? xi :
+		(~s13 &&  s11 && ~s12) ? avrxn :
+		(~s13 &&  s11 &&  s12) ? avryn :
+		( s13 && ~s11 && ~s12) ? b1 :
+					 (20'b1 << 10);
+
+
+//multiplexer3
+assign mult3 = s3 ? ~ansmult : ansmult;
+assign adder1 = mult3 + ssxx + ci;//ci is 1 bit
+
+
+//multiplexer4
+assign mult4 =  (~s41 && ~s42) ? avrxn :
+		(~s41 &&  s42) ? ssxy[29:10] :
+		( s41 && ~s42) ? avryn :
+				 20'b1;
+
+//multiplexer5
+assign mult5 = s5 ? ssxx : (20'd150 << 10);
+
+//multyplier
+assign ansmult = mult1 * mult2;
+
+//divider
+assign div = mult4 / mult5;
+
+//Memory
+//reg ssxy
+myreg40 ssxyreg(ssxx,initb,loadb,clk,ssxy);
+
+//reg ssxx
+myreg40 ssxxreg(adder1,inita,loada,clk,ssxx);
+
+//reg sx
+wire [19:0]addavrxn;
+assign addavrxn = xi + avrxn;
+myreg20 avrxnr(addavrxn,initsx,loadsx,clk,avrxn);
+
+
+//reg sy
+wire [19:0]addavryn;
+assign addavryn = yi + avryn;
+myreg20 avrynr(addavryn,initsy,loadsy,clk,avryn);
+
+//reg b0
+myreg20 b0reg(ssxx[29:10],initb0,loadb0,clk,b0);
+
+//reg b1
+myreg20 b1reg(div,initb1,loadb1,clk,b1);
+endmodule
+//======================================
+module myreg20(input [19:0]inp,
+input init,load,clk,
+output [19:0]outp);
+
+reg [19:0]mem;
+always@(posedge clk)begin
+	if(init)
+		mem <= 20'b0;
+	else if(load)
+		mem <= inp;
+end
+
+assign outp = mem;
+endmodule
+//======================================
+module myreg40(input [39:0]inp,
+input init,load,clk,
+output [39:0]outp);
+
+reg [39:0]mem;
+always@(posedge clk)begin
+	if(init)
+		mem <= 40'b0;
+	else if(load)
+		mem <= inp;
+end
+
+assign outp = mem;
+endmodule
+//======================================
+
+module error_checker(input [19:0]xi, yi,b0,b1,
+output  [19:0]error);
+
+wire [39:0] multans;
+wire [19:0] adder1;
+
+assign multans = xi * b1;
+assign adder1 = multans[29:10] + b0;
+assign error = ~adder1 + 1 + yi;
+
+endmodule
+//======================================
+module controller_a(input s,clk,co1,rstcon,
+output reg ready,load1,rst,cnt_en1,load_cnt1,s11,s12,s13,s21,s22,
+s3,s41,s42,s5,loadsy,loadsx,initsx,initsy,initb1,loadb1,loada,inita,loadb,initb,loadb0,initb0,ci);
+
+
+parameter [3:0]a1 = 4'd0 ,
+a2 = 4'd1,
+a3= 4'd2,
+a4 =4'd3,
+a5 =4'd4,
+a6 =4'd5,
+a7 =4'd6,
+a8 = 4'd7,
+a9 =4'd8,
+a10 =4'd9,
+a11 =4'd10,
+a12 =4'd11,
+a13 = 4'd12,
+a14=4'd13,
+a15 =4'd14,
+a16 =4'd15;
+reg [3:0]ps,ns;
+
+//diagram
+always@(ps or s or co1) begin
+ns = a1;
+{ready,load1,rst,cnt_en1,load_cnt1,s11,s12,s13,s21,s22,s3,s41,s42,s5,loadsy,
+loadsx,initsx,initsy,initb1,loadb1,loada,inita,loadb,initb,loadb0,initb0,ci} = 27'b0;
+	case(ps)	
+	a1: begin ns = ~s ? a1 : a2; ready = 1'b1; end
+	a2: begin ns = ~s ? a3 : a2; load_cnt1= 1'b1; rst = 1'b1; initb = 1'b1; inita = 1'b1; initsy = 1'b1; initsx = 1'b1; initb1 = 1'b1; initb0 = 1'b1;end
+	a3: begin ns = ~co1 ? a3 : a4; load1 = 1'b1;cnt_en1 = 1'b1;end
+	a4: begin ns = a5; load_cnt1 = 1'b1;end
+	a5: begin ns = ~co1 ? a5 : a6; loada = 1'b1;loadsx = 1'b1;loadsy = 1'b1; cnt_en1 = 1'b1;end
+	a6: begin ns = a7; ci  = 1'b1;s3 = 1'b1; s11 = 1'b1; s12 = 1'b1; s5 = 1'b1; s22 = 1'b1; loada = 1'b1;end
+	a7: begin ns = a8; loadb = 1'b1;load_cnt1 = 1'b1;end
+	a8: begin ns = a9; inita = 1'b1;end
+	a9: begin ns = ~co1 ? a9 : a10; s12 = 1'b1;loada = 1'b1;cnt_en1 = 1'b1;end
+	a10: begin ns = a11; ci = 1'b1; s3 = 1'b1; s11 = 1'b1; s22 = 1'b1; s5 = 1'b1; loada = 1'b1;end
+	a11: begin ns = a12; s42 = 1'b1;loadb1 = 1'b1;end
+	a12: begin ns = a13; inita = 1'b1;end
+	a13: begin ns = a14; ci = 1'b1;s13 = 1'b1; s5 = 1'b1; s3 = 1'b1; s22 = 1'b1; loada = 1'b1;end
+	a14: begin ns = a15; s5 = 1'b1;s22 = 1'b1; s12 = 1'b1; s41 = 1'b1; s13 = 1'b1; loada = 1'b1;end
+	a15: begin ns = a16; loadb0 = 1'b1; load_cnt1 = 1'b1;end
+	a16: begin ns = ~co1 ? a16 : a1; cnt_en1 = 1'b1;end
+	default: ns = a1;
+	endcase
+end
+
+
+
+always @(posedge clk or posedge rstcon)begin
+	if(rstcon)
+		ps <= a1;
+	else
+		ps <= ns;
+end
+
+endmodule
+//======================================
+
+module regressor(input [19:0]xi, yi,
+input clk,s,
+output  [19:0]error, b0, b1,
+output ready);
+
+wire [19:0] b00,b11,errorr,xio,yio;
+wire co1,rstcon,load1,rst,cnt_en1,load_cnt1,s11,s12,s13,s21,s22,
+s3,s41,s42,s5,loadsy,loadsx,initsx,initsy,initb1,loadb1,loada,inita,loadb,initb,loadb0,initb0,ci;
+
+
+error_checker a5(xi, yi,b0,b1,error);
+
+controller_a a4(s,clk,co1,rstcon,
+ready,load1,rst,cnt_en1,load_cnt1,s11,s12,s13,s21,s22,
+s3,s41,s42,s5,loadsy,loadsx,initsx,initsy,initb1,loadb1,loada,inita,loadb,initb,loadb0,initb0,ci);
+
+coefficent_calculator a2(xio, yio,
+s11,s12,s13,s21,s22,s3,s41,s42,s5,ci,clk,
+inita,initb,loada,loadb,initb0,initb1,loadb0,loadb1,
+loadsy,loadsx,initsx,initsy,
+b1,b0);
+
+data_loader a1(xi, yi,
+ load1,cnt_en1,load_cnt1,clk,rst,
+xio,yio,
+co1);
+
+endmodule
+//======================================

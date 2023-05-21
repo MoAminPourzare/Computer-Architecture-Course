@@ -1,0 +1,124 @@
+C:/Users/Asus/Desktop/jadid/REG_FILE.sv {1 {vlog -work work -sv -stats=none C:/Users/Asus/Desktop/jadid/REG_FILE.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register_file
+
+Top level modules:
+	Register_file
+
+} {} {}} C:/Users/Asus/Desktop/jadid/DataPath.sv {2 {vlog -work work -sv -stats=none C:/Users/Asus/Desktop/jadid/DataPath.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Data_path
+** Warning: C:/Users/Asus/Desktop/jadid/DataPath.sv(2): (vlog-13314) Defaulting port 'instMem' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	Data_path
+
+} {} {}} C:/Users/Asus/Desktop/jadid/PC_INCREMENT.sv {1 {vlog -work work -sv -stats=none C:/Users/Asus/Desktop/jadid/PC_INCREMENT.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PC_inc
+
+Top level modules:
+	PC_inc
+
+} {} {}} C:/Users/Asus/Desktop/jadid/ALU.sv {1 {vlog -work work -sv -stats=none C:/Users/Asus/Desktop/jadid/ALU.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU_32bit
+
+Top level modules:
+	ALU_32bit
+
+} {} {}} C:/Users/Asus/Desktop/jadid/MUX.sv {1 {vlog -work work -sv -stats=none C:/Users/Asus/Desktop/jadid/MUX.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux2to1_32bit
+-- Compiling module Mux3to1_5bit
+-- Compiling module Mux3to1_32bit
+-- Compiling module Mux4to1_32bit
+
+Top level modules:
+	Mux2to1_32bit
+	Mux3to1_5bit
+	Mux3to1_32bit
+	Mux4to1_32bit
+
+} {} {}} C:/Users/Asus/Desktop/jadid/InstructionMemory.sv {2 {vlog -work work -sv -stats=none C:/Users/Asus/Desktop/jadid/InstructionMemory.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Instruction_memory
+** Warning: C:/Users/Asus/Desktop/jadid/InstructionMemory.sv(1): (vlog-13314) Defaulting port 'instructionMemory' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	Instruction_memory
+
+} {} {}} C:/Users/Asus/Desktop/jadid/Controller.sv {1 {vlog -work work -sv -stats=none C:/Users/Asus/Desktop/jadid/Controller.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} C:/Users/Asus/Desktop/jadid/Testbench.sv {1 {vlog -work work -sv -stats=none C:/Users/Asus/Desktop/jadid/Testbench.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}} C:/Users/Asus/Desktop/jadid/Adder.sv {1 {vlog -work work -sv -stats=none C:/Users/Asus/Desktop/jadid/Adder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module address_inc
+
+Top level modules:
+	address_inc
+
+} {} {}} C:/Users/Asus/Desktop/jadid/MIPS.sv {2 {vlog -work work -sv -stats=none C:/Users/Asus/Desktop/jadid/MIPS.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MIPS
+** Warning: C:/Users/Asus/Desktop/jadid/MIPS.sv(2): (vlog-13314) Defaulting port 'instMem' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	MIPS
+
+} {} {}} C:/Users/Asus/Desktop/jadid/SignExtend.sv {1 {vlog -work work -sv -stats=none C:/Users/Asus/Desktop/jadid/SignExtend.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Sign_extend
+
+Top level modules:
+	Sign_extend
+
+} {} {}} C:/Users/Asus/Desktop/jadid/ALU_CU.sv {1 {vlog -work work -sv -stats=none C:/Users/Asus/Desktop/jadid/ALU_CU.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU_control
+
+Top level modules:
+	ALU_control
+
+} {} {}} C:/Users/Asus/Desktop/jadid/Shift_Left2.sv {1 {vlog -work work -sv -stats=none C:/Users/Asus/Desktop/jadid/Shift_Left2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Shl2_32
+-- Compiling module Shl2_26
+
+Top level modules:
+	Shl2_32
+	Shl2_26
+
+} {} {}} C:/Users/Asus/Desktop/jadid/PC.sv {1 {vlog -work work -sv -stats=none C:/Users/Asus/Desktop/jadid/PC.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} C:/Users/Asus/Desktop/jadid/DataMemory.sv {1 {vlog -work work -sv -stats=none C:/Users/Asus/Desktop/jadid/DataMemory.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Data_Memory
+
+Top level modules:
+	Data_Memory
+
+} {} {}} C:/Users/Asus/Desktop/jadid/REG32.sv {1 {vlog -work work -sv -stats=none C:/Users/Asus/Desktop/jadid/REG32.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module REG32
+
+Top level modules:
+	REG32
+
+} {} {}}

@@ -1,0 +1,58 @@
+D:/CA3/CA33333/datapath.v {2 {vlog -work work -stats=none {D:\CA3\CA33333\datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+-- Compiling module Shl21
+** Warning: D:\CA3\CA33333\datapath.v(48): (vlog-2697) MSB 29 of part-select into 'In' is out of bounds.
+-- Compiling module Shl22
+-- Compiling module address_inc
+-- Compiling module alu
+-- Compiling module comparator
+-- Compiling module PC_inccc
+-- Compiling module data_mem
+-- Compiling module exmem
+-- Compiling module f_f
+-- Compiling module Forwarding
+-- Compiling module Adder
+-- Compiling module Hazard
+-- Compiling module IDEX
+-- Compiling module IFID
+-- Compiling module inst_mem
+-- Compiling module membw
+-- Compiling module pipeline
+-- Compiling module mux21b
+-- Compiling module mux21
+-- Compiling module mux41
+-- Compiling module reg3
+-- Compiling module reg5
+-- Compiling module regnorm
+-- Compiling module regfile
+-- Compiling module shl2
+-- Compiling module SE
+
+Top level modules:
+	Shl21
+	Shl22
+	address_inc
+	PC_inccc
+	data_mem
+	Forwarding
+	Hazard
+	inst_mem
+	pipeline
+
+} {} {}} D:/CA3/CA33333/controller.v {1 {vlog -work work -stats=none {D:\CA3\CA33333\controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+-- Compiling module alu_controller
+
+Top level modules:
+	controller
+
+} {} {}} D:/CA3/CA33333/TB.v {1 {vlog -work work -stats=none {D:\CA3\CA33333\TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}}

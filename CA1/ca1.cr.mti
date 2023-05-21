@@ -1,0 +1,21 @@
+E:/Logic_Gate_Projects(UT)/modelsim/CA/ca1/test.v {1 {vlog -work work -stats=none E:/Logic_Gate_Projects(UT)/modelsim/CA/ca1/test.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TBregressor
+
+Top level modules:
+	TBregressor
+
+} {} {}} E:/Logic_Gate_Projects(UT)/modelsim/CA/ca1/main.v {1 {vlog -work work -stats=none E:/Logic_Gate_Projects(UT)/modelsim/CA/ca1/main.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module data_loader
+-- Compiling module coefficent_calculator
+-- Compiling module myreg20
+-- Compiling module myreg40
+-- Compiling module error_checker
+-- Compiling module controller_a
+-- Compiling module regressor
+
+Top level modules:
+	regressor
+
+} {} {}}

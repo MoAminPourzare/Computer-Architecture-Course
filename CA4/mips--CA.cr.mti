@@ -1,0 +1,119 @@
+C:/Users/Halo/Desktop/CA2/Controller.sv {1 {vlog -work work -sv -stats=none C:/Users/Halo/Desktop/CA2/Controller.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} C:/Users/Halo/Desktop/CA2/Testbench.sv {1 {vlog -work work -sv -stats=none C:/Users/Halo/Desktop/CA2/Testbench.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}} C:/Users/Halo/Desktop/CA2/Adder.sv {1 {vlog -work work -sv -stats=none C:/Users/Halo/Desktop/CA2/Adder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module address_inc
+
+Top level modules:
+	address_inc
+
+} {} {}} C:/Users/Halo/Desktop/CA2/SignExtend.sv {1 {vlog -work work -sv -stats=none C:/Users/Halo/Desktop/CA2/SignExtend.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Sign_extend
+
+Top level modules:
+	Sign_extend
+
+} {} {}} C:/Users/Halo/Desktop/CA2/MIPS.sv {2 {vlog -work work -sv -stats=none C:/Users/Halo/Desktop/CA2/MIPS.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MIPS
+** Warning: C:/Users/Halo/Desktop/CA2/MIPS.sv(2): (vlog-13314) Defaulting port 'instMem' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	MIPS
+
+} {} {}} C:/Users/Halo/Desktop/CA2/ALU_CU.sv {1 {vlog -work work -sv -stats=none C:/Users/Halo/Desktop/CA2/ALU_CU.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU_control
+
+Top level modules:
+	ALU_control
+
+} {} {}} C:/Users/Halo/Desktop/CA2/Shift_Left2.sv {2 {vlog -work work -sv -stats=none {C:\Users\Halo\Desktop\CA2\Shift_Left2.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Shl2_12
+** Warning: C:\Users\Halo\Desktop\CA2\Shift_Left2.sv(2): (vlog-2697) MSB 29 of part-select into 'In' is out of bounds.
+-- Compiling module Shl2_26
+
+Top level modules:
+	Shl2_12
+	Shl2_26
+
+} {} {}} C:/Users/Halo/Desktop/CA2/PC.sv {1 {vlog -work work -sv -stats=none C:/Users/Halo/Desktop/CA2/PC.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} C:/Users/Halo/Desktop/CA2/REG16.sv {1 {vlog -work work -sv -stats=none {C:\Users\Halo\Desktop\CA2\REG16.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module REG16
+-- Compiling module REG32
+
+Top level modules:
+	REG16
+	REG32
+
+} {} {}} C:/Users/Halo/Desktop/CA2/REG_FILE.sv {1 {vlog -work work -sv -stats=none C:/Users/Halo/Desktop/CA2/REG_FILE.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register_file
+
+Top level modules:
+	Register_file
+
+} {} {}} C:/Users/Halo/Desktop/CA2/PC_INCREMENT.sv {1 {vlog -work work -sv -stats=none C:/Users/Halo/Desktop/CA2/PC_INCREMENT.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PC_inc
+
+Top level modules:
+	PC_inc
+
+} {} {}} C:/Users/Halo/Desktop/CA2/DataPath.sv {2 {vlog -work work -sv -stats=none {C:\Users\Halo\Desktop\CA2\DataPath.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Data_path
+** Warning: C:\Users\Halo\Desktop\CA2\DataPath.sv(2): (vlog-13314) Defaulting port 'instMem' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	Data_path
+
+} {} {}} C:/Users/Halo/Desktop/CA2/Memory.sv {1 {vlog -work work -sv -stats=none {C:\Users\Halo\Desktop\CA2\Memory.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Memory
+
+Top level modules:
+	Memory
+
+} {} {}} C:/Users/Halo/Desktop/CA2/ALU.sv {1 {vlog -work work -sv -stats=none {C:\Users\Halo\Desktop\CA2\ALU.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU_16bit
+
+Top level modules:
+	ALU_16bit
+
+} {} {}} C:/Users/Halo/Desktop/CA2/MUX.sv {1 {vlog -work work -sv -stats=none {C:\Users\Halo\Desktop\CA2\MUX.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Mux2to1_12bit
+-- Compiling module Mux3to1_5bit
+-- Compiling module Mux3to1_12bit
+-- Compiling module Mux4to1_12bit
+
+Top level modules:
+	Mux2to1_12bit
+	Mux3to1_5bit
+	Mux3to1_12bit
+	Mux4to1_12bit
+
+} {} {}}
